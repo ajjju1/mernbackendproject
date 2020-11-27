@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   {{>header}}
+    <title>my first backend project</title>
+</head>
+<body>
+    {{>navbar}}
+    <!-- main header -->
+    <div class="main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="main_header_left align-items-center">
+                    <figure class="erring">
+                        <img src="imaes/404.png" alt="error page" title="thapatechnical" class="img-fluid">
+                    </figure>
+                    <p>Welcome to Ajmal's World</p>
+                    <h1>{{errorMSG}}</h1>
+                    <a href="index.hbs">Go Back</a>
+                </div>
+            </div>
+        </div>
+    </div>
+{{>cdn}}
+</body>
+</html>
